@@ -1,5 +1,3 @@
-from astropy.io import fits
-# Write your load_fits function here.
 def load_fits(fit):
   arq = fits.open(fit)
   return arq.info()
